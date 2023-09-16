@@ -21,7 +21,7 @@ import matplotlib.image as mpimg
 # Define the home function
 def home():
     st.write("## Introduction")
-    st.write("This app uses  convolutional neural network  to classify variety Hand SIgn image ")
+    st.write("This app uses  convolutional neural network  to classify variety Hand Sign image ")
    
     
     st.write("This Data contains around 6 images of size 64x64 ")
