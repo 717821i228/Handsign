@@ -21,10 +21,10 @@ import matplotlib.image as mpimg
 # Define the home function
 def home():
     st.write("## Introduction")
-    st.write("This app uses  convolutional neural network  to classify variety rice image into five different class category")
+    st.write("This app uses  convolutional neural network  to classify variety Hand SIgn image ")
    
     
-    st.write("This Data contains around 75k images of size 50x50 distributed under 5 categories.")
+    st.write("This Data contains around 6 images of size 64x64 ")
     st.write("'Five' -> 0")
     st.write("'Zero' -> 1")
     st.write("'Two' -> 2")
@@ -36,7 +36,7 @@ def home():
 # Define the prediction function
 def prediction():
     
-    st.write("Predict the Rice image that is being represented in the image")
+    st.write("Predict the Hand sign image that is being represented in the image")
     
     # Define the input fields
     model = load_model("cnn.h5")
